@@ -44,3 +44,6 @@ To connect a local repository with a remote repository. A remote repository can 
 *git clone*
 To create a local working copy of an existing remote repository, use git clone to copy and download the repository to a computer. Cloning is the equivalent of git init when working with a remote repository. Git will create a directory locally with all files and repository history.
 
+*git pull*
+To get the latest version of a repository run git pull. This pulls the changes from the remote repository to the local computer.
+
