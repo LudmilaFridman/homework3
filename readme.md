@@ -47,3 +47,5 @@ To create a local working copy of an existing remote repository, use git clone t
 *git pull*
 To get the latest version of a repository run git pull. This pulls the changes from the remote repository to the local computer.
 
+*git push*
+Sends local commits to the remote repository. git push requires two parameters: the remote repository and the branch that the push is for.
