@@ -37,15 +37,9 @@ Git - это одна из реализаций распределённых с�
 ## Удаление веток
 Для удаления ветки - ввести команду "git branch -d 'name branch'".
 
-## Working with remote repositories
-*git remote*
-To connect a local repository with a remote repository. A remote repository can have a name set to avoid having to remember the URL of the repository.
-
-*git clone*
-To create a local working copy of an existing remote repository, use git clone to copy and download the repository to a computer. Cloning is the equivalent of git init when working with a remote repository. Git will create a directory locally with all files and repository history.
-
+## Работа с удалёнными репозиториями
 *git pull*
-To get the latest version of a repository run git pull. This pulls the changes from the remote repository to the local computer.
+Команда git pull работает как комбинация команд git fetch и git merge, т. е. Git вначале забирает изменения из указанного удалённого репозитория, а затем пытается слить их с текущей веткой.
 
 *git push*
-Sends local commits to the remote repository. git push requires two parameters: the remote repository and the branch that the push is for.
+Команда git push используется для установления связи с удалённым репозиторием, вычисления локальных изменений отсутствующих в нём, и собственно их передачи в вышеупомянутый репозиторий. Этой команде нужно право на запись в репозиторий, поэтому она использует аутентификацию.
