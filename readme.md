@@ -40,3 +40,7 @@ Git - это одна из реализаций распределённых с�
 ## Working with remote repositories
 *git remote*
 To connect a local repository with a remote repository. A remote repository can have a name set to avoid having to remember the URL of the repository.
+
+*git clone*
+To create a local working copy of an existing remote repository, use git clone to copy and download the repository to a computer. Cloning is the equivalent of git init when working with a remote repository. Git will create a directory locally with all files and repository history.
+
