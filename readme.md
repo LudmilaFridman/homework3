@@ -37,3 +37,6 @@ Git - это одна из реализаций распределённых с�
 ## Удаление веток
 Для удаления ветки - ввести команду "git branch -d 'name branch'".
 
+## Working with remote repositories
+*git remote*
+To connect a local repository with a remote repository. A remote repository can have a name set to avoid having to remember the URL of the repository.
