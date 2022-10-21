@@ -37,3 +37,5 @@ Git - это одна из реализаций распределённых с�
 ## Удаление веток
 Для удаления ветки - ввести команду "git branch -d 'name branch'".
 
+*git push*
+Sends local commits to the remote repository. git push requires two parameters: the remote repository and the branch that the push is for.
