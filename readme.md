@@ -37,3 +37,5 @@ Git - это одна из реализаций распределённых с�
 ## Удаление веток
 Для удаления ветки - ввести команду "git branch -d 'name branch'".
 
+*git pull*
+To get the latest version of a repository run git pull. This pulls the changes from the remote repository to the local computer.
